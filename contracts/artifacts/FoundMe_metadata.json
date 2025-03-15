@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.6.8+commit.0bbfe453"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "adrressToAmountFounded",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "found",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FoundMe.sol": "FoundMe"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FoundMe.sol": {
+			"keccak256": "0xb02e22708cdca468cc5f7d5f926035f4a83cf6132a801b61fb7d89852f16c0c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e475fe557b0b05a30af5fda822c525e1c69b5c17940df18993b18e89b4a23c7e",
+				"dweb:/ipfs/QmSJP1c3AW8o6fUcPZfoY7eNhRk963VdKRF5QNUzdTMXXK"
+			]
+		}
+	},
+	"version": 1
+}

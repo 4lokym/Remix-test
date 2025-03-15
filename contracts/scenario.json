@@ -1,0 +1,40 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1742055023009,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xdf4059ffbbd214a3258e61692ca027f24b5a20b04a54e09bb8eb9e98c0c16194",
+        "contractName": "SimplesStorage",
+        "bytecode": "60806040526103e85f553480156013575f80fd5b5060d9806100205f395ff3fe6080604052348015600e575f80fd5b50600436106026575f3560e01c80636057361d14602a575b5f80fd5b60406004803603810190603c9190607d565b6042565b005b805f8190555050565b5f80fd5b5f819050919050565b605f81604f565b81146068575f80fd5b50565b5f813590506077816058565b92915050565b5f60208284031215608f57608e604b565b5b5f609a84828501606b565b9150509291505056fea264697066735822122091fd8bbb03348fe0182a9b5c2394940256a888f73873bf6f687652001d01153364736f6c634300081a0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xdf4059ffbbd214a3258e61692ca027f24b5a20b04a54e09bb8eb9e98c0c16194": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_unsined",
+            "type": "uint256"
+          }
+        ],
+        "name": "store",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ]
+  }
+}
